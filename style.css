@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 115px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.common-btn {
+  padding: 12px 41.5px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}

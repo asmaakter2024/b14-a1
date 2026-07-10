@@ -81,3 +81,54 @@ ul li a {
 .third {
   padding-bottom: 79px;
 }
+
+.speaker-heading {
+  padding-top: 80px;
+  padding-bottom: 56px;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  color: #000102;
+}
+
+.speakers {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  gap: 33px;
+  padding-left: 115px;
+  padding-right: 115px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px inset #e5e7eb;
+}
+.img-section img {
+  width: 100%;
+}
+.text-section {
+  padding-left: 24px;
+}
+.text-section h6 {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.text-section h3 {
+  padding: 8px 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.text-section p {
+  padding-bottom: 27px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.speakers-section {
+  padding-bottom: 33px;
+}

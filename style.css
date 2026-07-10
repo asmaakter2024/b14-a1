@@ -4,7 +4,7 @@
   font-family: "Inter";
 }
 
-section {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,4 +32,52 @@ ul li a {
   color: #ffffff;
   border-radius: 10px;
   border: none;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 60%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url(./assets/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.first h1 {
+  padding-top: 136px;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.second p {
+  padding-top: 8px;
+  padding-bottom: 278px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+}
+.hero-btn {
+  padding: 25px 62.5px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.third {
+  padding-bottom: 79px;
 }

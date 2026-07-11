@@ -182,7 +182,7 @@ nav {
 }
 .price-item-pro h1 {
   color: #ffffff;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 700;
 }
 .price-item-pro p {
@@ -217,4 +217,20 @@ nav {
   background-color: #ffffff;
   font-size: 14px;
   font-weight: 600;
+}
+
+.price-item h6 {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+}
+.price-item h1 {
+  color: #0d1b2a;
+  font-size: 44px;
+  font-weight: 700;
+}
+.price-item p {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 400;
 }

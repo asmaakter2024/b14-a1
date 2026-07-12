@@ -280,8 +280,15 @@ footer {
   padding: 10px 40px;
 }
 .footer-img {
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
 }
+#logo-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
 footer .link-menu {
   display: flex;
   column-gap: 16px;
@@ -307,8 +314,8 @@ footer .social-link-item {
 .copyright p {
   font-size: 16px;
   font-weight: 300;
-  color: #ffffff;
-  padding: 5px;
+  color: #888888;
+  padding-left: 45px;
 }
 
 .privacy {
@@ -316,4 +323,5 @@ footer .social-link-item {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  padding-right: 45px;
 }

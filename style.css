@@ -44,7 +44,7 @@ nav {
     linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.8) 0%,
-      rgba(0, 0, 0, 0.4) 60%,
+      rgba(0, 0, 0, 0.4) 30%,
       rgba(0, 0, 0, 0.2) 100%
     ),
     url(./assets/banner.jpg);
@@ -236,7 +236,6 @@ nav {
   font-weight: 400;
 }
 
-/*  */
 #schedule {
   max-width: 700px;
   margin: auto;
@@ -279,9 +278,7 @@ footer {
   margin-top: 25px;
   padding: 10px 40px;
 }
-.footer-img {
-  /* padding: 20px 30px; */
-}
+
 #logo-part {
   display: flex;
   justify-content: space-between;
